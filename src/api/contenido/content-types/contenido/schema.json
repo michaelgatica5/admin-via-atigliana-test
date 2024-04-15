@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "contenidos",
+  "info": {
+    "singularName": "contenido",
+    "pluralName": "contenidos",
+    "displayName": "Contenido"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "blocks"
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "descripcioncorta": {
+      "type": "string"
+    },
+    "activo": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
